@@ -69,7 +69,7 @@ function App() {
             <p className="text-[64px]">SpendCast</p>
             <div className="chat-wrapper">
               <div className="chat-box">
-                <h2 className="chat-heading">Chatbot - Ask me something</h2>
+                <h2 className="chat-heading">Spend Cast Assistant - Ask me something</h2>
 
                 {showQuickQuestion && (
                   <div className="quick-question">
@@ -154,6 +154,7 @@ function App() {
           </div>
         </header>
       </div>
+      <p className="info" >The analysis is based on 2024 data made available by PostFinance</p>
     </main>
   );
 }
